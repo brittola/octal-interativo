@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octal Interativo</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="icon" href="./assets/img/logo.png">
+</head>
+<body>
+    <header>
+        <img src="./assets/img/logo.png" alt="Número oito dentro de um círculo">
+        <h1>Octal Interativo</h1>
+        <p>
+            Sua plataforma prática sobre o sistema numérico octal
+        </p>
+    </header>
+    <main>
+        <div class="seletor-abas">
+            <button id="btConversor" class="active">
+                Conversor Octal
+            </button>
+            <button id="btQuiz">
+                Quiz Octal
+            </button>
+        </div>
+        <section class="aba-conversor aba">
+            <h3>Converter de...</h3>
+            <form class="conversor">
+                <div class="selecao-conversao">
+                    <label>
+                        <input type="radio" name="opcao_conversao" value="octal" checked>
+                        <span>Decimal para Octal</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="opcao_conversao" value="decimal">
+                        <span>Octal para Decimal</span>
+                    </label>
+                </div>
+                <div class="inputs">
+                    <input type="number" id="inNumero" placeholder="Digite o número decimal">
+                    <strong>
+                        <span>Resultado:</span>
+                    </strong>
+                    <input type="number" id="outResultado" readonly>
+                </div>
+            </form>
+            <button id="btConverter">Converter</button>
+        </section>
+        <section class="aba-quiz aba hide">
+            <p>
+                Teste os seus conhecimentos sobre o sistema numérico octal com dez questões de múltipla escolha.
+            </p>
+            <a href="https://brittola.github.io/sistema-octal/" target="_blank">
+                Precisa aprender mais antes de responder? Clique aqui.
+            </a>
+            <form class="quiz">
+                <!-- as perguntas e alternativas são geradas aqui com JavaScript -->
+            </form>
+            <div class="controles">
+                <h1 id="outNota"></h1>
+                <button id="btVerificar">Verificar Respostas</button>
+                <button id="btReiniciar" class="hide">Tentar Novamente</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/conversor.js"></script>
+    <script src="./assets/js/quiz.js"></script>
+</body>
+</html>

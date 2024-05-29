@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  padding: 32px;
+  border-bottom: 2px solid #f78e27;
+  background-color: #fff;
+}
+header img {
+  float: left;
+  width: 60px;
+  margin-right: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px;
+  width: 95%;
+  max-width: 800px;
+  margin: auto;
+}
+main .seletor-abas {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+main .seletor-abas button {
+  padding: 16px 22px;
+  outline: none;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 12px 12px 0px 0px;
+  font-size: 22px;
+  font-weight: 500;
+  transition: 400ms;
+  cursor: pointer;
+}
+main .seletor-abas button.active {
+  background-color: #f78e27;
+}
+main .aba {
+  padding: 32px;
+  width: 100%;
+  background-color: #f5f5f5;
+  border: 2px solid #f78e27;
+  border-radius: 0px 8px 8px 8px;
+}
+main .aba.hide {
+  display: none;
+}
+main .aba-conversor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+main .aba-conversor h3 {
+  font-size: 28px;
+}
+main .aba-conversor form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+main .aba-conversor form div.selecao-conversao {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+main .aba-conversor form div.selecao-conversao label {
+  cursor: pointer;
+  font-size: 18px;
+}
+main .aba-conversor form div.selecao-conversao label input {
+  cursor: pointer;
+}
+main .aba-conversor form div.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+main .aba-conversor form div.inputs input {
+  width: 100%;
+  max-width: 250px;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  transition: 400ms;
+  border: 1px solid rgba(247, 142, 39, 0);
+  font-size: 16px;
+}
+main .aba-conversor form div.inputs input:focus {
+  border: 1px solid #f78e27;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+main .aba-conversor button {
+  border: 2px solid #f78e27;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-weight: 700;
+  color: #f78e27;
+  cursor: pointer;
+  transition: 400ms;
+  font-size: 18px;
+}
+main .aba-conversor button:hover {
+  color: #fff;
+  background-color: #f78e27;
+}
+main .aba-quiz {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+}
+main .aba-quiz > p {
+  font-size: 22px;
+  font-weight: 700;
+}
+main .aba-quiz > a {
+  color: #ed6700;
+}
+main .aba-quiz form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 18px;
+  margin-top: 32px;
+}
+main .aba-quiz form div.questao h4 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+main .aba-quiz form div.questao label {
+  display: block;
+  width: fit-content;
+  padding: 6px;
+  padding-left: 0px;
+  cursor: pointer;
+}
+main .aba-quiz form div.questao label input {
+  margin-right: 8px;
+}
+main .aba-quiz form div.questao p.feedback {
+  margin-top: 12px;
+  display: none;
+}
+main .aba-quiz form div.questao.certa h4 {
+  color: #0fdd0f;
+}
+main .aba-quiz form div.questao.errada h4 {
+  color: #d01010;
+}
+main .aba-quiz form div.questao.errada p.feedback {
+  display: block;
+}
+main .aba-quiz div.controles {
+  width: 100%;
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+main .aba-quiz div.controles h1#outNota.hide {
+  display: none;
+}
+main .aba-quiz div.controles button {
+  border: 2px solid #f78e27;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 12px 18px;
+  font-weight: 700;
+  color: #f78e27;
+  cursor: pointer;
+  transition: 400ms;
+  font-size: 18px;
+}
+main .aba-quiz div.controles button.hide {
+  display: none;
+}
+main .aba-quiz div.controles button:hover {
+  color: #fff;
+  background-color: #f78e27;
+}
