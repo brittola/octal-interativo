@@ -1,61 +1,61 @@
 const quiz = [
     {
         "pergunta": "Qual é a base do sistema numérico octal?",
-        "alternativas": ["2", "8", "10", "16"],
+        "alternativas": ["2", "8", "10", "16", "4"],
         "resposta": "8",
         "feedback": "A base do sistema numérico octal é 8, pois ele utiliza dígitos de 0 a 7."
     },
     {
         "pergunta": "O que o número octal 10 representa no sistema decimal?",
-        "alternativas": ["8", "10", "16", "18"],
+        "alternativas": ["8", "10", "16", "18", "12"],
         "resposta": "8",
         "feedback": "Lembre-se de que o sistema octal é baseado em potências de 8."
     },
     {
         "pergunta": "Qual é a representação octal do número decimal 15?",
-        "alternativas": ["15", "17", "16", "14"],
+        "alternativas": ["15", "17", "16", "14", "13"],
         "resposta": "17",
         "feedback": "Converta o número decimal 15 dividindo-o por 8 e usando o resto como dígito."
     },
     {
         "pergunta": "Como se escreve o número decimal 64 no sistema octal?",
-        "alternativas": ["64", "80", "100", "144"],
+        "alternativas": ["64", "80", "100", "144", "120"],
         "resposta": "100",
         "feedback": "Divida o número decimal 64 por 8 repetidamente para obter os dígitos octais."
     },
     {
         "pergunta": "Qual é a vantagem de usar o sistema octal em relação ao binário para representar números?",
-        "alternativas": ["Reduz a quantidade de dígitos necessários para representar um número", "Aumenta a complexidade dos cálculos", "Facilita a conversão para o sistema hexadecimal", "Elimina a necessidade de usar zero"],
+        "alternativas": ["Reduz a quantidade de dígitos necessários para representar um número", "Aumenta a complexidade dos cálculos", "Facilita a conversão para o sistema hexadecimal", "Elimina a necessidade de usar zero", "Permite representar números negativos com mais facilidade"],
         "resposta": "Reduz a quantidade de dígitos necessários para representar um número",
         "feedback": "O sistema octal agrupa três bits binários em um único dígito octal, reduzindo o número de dígitos."
     },
     {
         "pergunta": "Qual é a diferença fundamental entre os sistemas octal e hexadecimal?",
-        "alternativas": ["O octal é baseado em 8 e o hexadecimal em 16", "O octal usa letras e números, enquanto o hexadecimal usa apenas números", "O hexadecimal é mais usado em computação do que o octal", "O octal é mais difícil de aprender do que o hexadecimal"],
+        "alternativas": ["O octal é baseado em 8 e o hexadecimal em 16", "O octal usa letras e números, enquanto o hexadecimal usa apenas números", "O hexadecimal é mais usado em computação do que o octal", "O octal é mais difícil de aprender do que o hexadecimal", "O hexadecimal usa apenas letras"],
         "resposta": "O octal é baseado em 8 e o hexadecimal em 16",
         "feedback": "A principal diferença é a base de cada sistema: 8 para octal e 16 para hexadecimal."
     },
     {
         "pergunta": "Para qual propósito específico o sistema octal foi amplamente utilizado no passado?",
-        "alternativas": ["Programação de computadores modernos", "Representação de endereços de memória em sistemas antigos", "Criptografia e segurança de dados", "Codificação de caracteres em linguagens de programação"],
+        "alternativas": ["Programação de computadores modernos", "Representação de endereços de memória em sistemas antigos", "Criptografia e segurança de dados", "Codificação de caracteres em linguagens de programação", "Análise de redes de computadores"],
         "resposta": "Representação de endereços de memória em sistemas antigos",
         "feedback": "Sistemas antigos usavam octal para simplificar a leitura de endereços de memória."
     },
     {
         "pergunta": "Qual é uma limitação do sistema numérico octal?",
-        "alternativas": ["Não pode representar grandes números com eficiência", "Não é intuitivo para conversões de e para binário", "Não é amplamente utilizado em computação moderna", "Requer mais dígitos para representar números do que o sistema hexadecimal"],
+        "alternativas": ["Não pode representar grandes números com eficiência", "Não é intuitivo para conversões de e para binário", "Não é amplamente utilizado em computação moderna", "Requer mais dígitos para representar números do que o sistema hexadecimal", "É difícil de aprender"],
         "resposta": "Não é amplamente utilizado em computação moderna",
         "feedback": "Embora tenha sido útil no passado, o sistema octal é menos comum hoje em dia."
     },
     {
         "pergunta": "Como você converte um número decimal para o sistema octal?",
-        "alternativas": ["Dividindo o número por 8 e usando o resto como dígito", "Agrupando quatro bits do número binário", "Usando diretamente os dígitos decimais equivalentes", "Convertendo diretamente para binário e depois agrupando em três bits"],
+        "alternativas": ["Dividindo o número por 8 e usando o resto como dígito", "Agrupando quatro bits do número binário", "Usando diretamente os dígitos decimais equivalentes", "Convertendo diretamente para binário e depois agrupando em três bits", "Subtraindo repetidamente 8 do número"],
         "resposta": "Dividindo o número por 8 e usando o resto como dígito",
         "feedback": "O método mais direto é dividir repetidamente por 8 e registrar os restos."
     },
     {
         "pergunta": "Qual é a principal característica do sistema numérico octal?",
-        "alternativas": ["Utiliza 10 dígitos, de 0 a 9", "É baseado em potências de 2", "Utiliza 8 dígitos, de 0 a 7", "É amplamente utilizado na programação moderna"],
+        "alternativas": ["Utiliza 10 dígitos, de 0 a 9", "É baseado em potências de 2", "Utiliza 8 dígitos, de 0 a 7", "É amplamente utilizado na programação moderna", "Usa letras e números"],
         "resposta": "Utiliza 8 dígitos, de 0 a 7",
         "feedback": "O sistema octal usa exclusivamente os dígitos de 0 a 7."
     }
