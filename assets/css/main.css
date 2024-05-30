@@ -205,3 +205,12 @@ main .aba-quiz div.controles button:hover {
   color: #fff;
   background-color: #f78e27;
 }
+
+footer {
+  margin: auto;
+  padding: 60px 0px;
+  padding-top: 0px;
+}
+footer ul {
+  text-align: center;
+}
